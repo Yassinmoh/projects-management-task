@@ -1,0 +1,87 @@
+nav {
+  height: 70px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00337698), to(#00397680)), url("../../../public/nav.jpg");
+  background: linear-gradient(#00337698, #00397680), url("../../../public/nav.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
+}
+
+nav .nav-right {
+  padding: 0 8px;
+}
+
+nav .nav-right .nav-right-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-right .nav-right-top svg {
+  font-size: 24px;
+}
+
+nav .nav-right .nav-right-buttom span {
+  font-size: 12px;
+  margin: 0 12px;
+}
+
+nav .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-left svg {
+  margin-left: 2.1rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+nav .nav-left .nav-avatar {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 2.1rem;
+}
+
+nav .nav-left .nav-avatar img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+nav .nav-left .nav-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-left .nav-info svg {
+  margin: 0 5px;
+}
+
+nav .nav-left .nav-info svg:hover {
+  color: gold;
+}
+/*# sourceMappingURL=Navbar.css.map */

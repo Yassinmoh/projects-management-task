@@ -1,0 +1,107 @@
+.filter-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.filter-section .searsh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filter-section .searsh h5 {
+  color: green;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.filter-section .searsh input {
+  margin-right: 1.3rem;
+  padding: 0 2.7rem;
+}
+
+.filter-section .searsh input:focus {
+  outline: 0;
+}
+
+.filter-section .searsh input::-webkit-input-placeholder {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.699);
+}
+
+.filter-section .searsh input:-ms-input-placeholder {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.699);
+}
+
+.filter-section .searsh input::-ms-input-placeholder {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.699);
+}
+
+.filter-section .searsh input::placeholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.699);
+}
+
+.filter-section .sort span {
+  margin-left: 1.2rem;
+}
+
+.filter-section .sort span:hover {
+  color: #32056e;
+}
+
+.filter-section .sort span svg {
+  color: gray;
+  margin-left: 0.4rem;
+}
+
+.filter-section .sort button {
+  border: 0;
+  background-color: rgba(0, 128, 0, 0.555);
+  color: white;
+  padding: 5px 9px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.filter-section .sort button:hover {
+  background-color: rgba(0, 128, 0, 0.747);
+  -webkit-transform: scaleX(1.1);
+          transform: scaleX(1.1);
+}
+/*# sourceMappingURL=Filter.css.map */

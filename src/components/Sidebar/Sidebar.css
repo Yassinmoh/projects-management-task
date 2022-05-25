@@ -1,0 +1,41 @@
+.sidebar .logo img {
+  width: 100%;
+  height: 100%;
+  margin-top: -15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar .main-icons svg {
+  font-size: 21px;
+}
+
+.sidebar .main-icons:hover {
+  background-color: rgba(0, 0, 255, 0.034);
+}
+
+.sidebar .logOut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sidebar .logOut .log-svg {
+  font-size: 24px;
+  color: green;
+}
+
+.sidebar .logOut .arr-svg {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(0, 0, 255, 0.493);
+}
+
+.sidebar .logOut strong {
+  margin-right: 2px;
+}
+/*# sourceMappingURL=Sidebar.css.map */

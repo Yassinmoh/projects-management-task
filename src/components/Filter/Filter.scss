@@ -1,0 +1,54 @@
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+
+    .searsh {
+        display: flex;
+        h5{
+            color: green;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        input{
+            margin-right: 1.3rem;
+            padding:0 2.7rem;
+            &:focus{
+                outline:0;
+            }
+            &::placeholder{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size:0.8rem;
+                color:rgba(128, 128, 128, 0.699)
+            }
+        }
+    }
+
+    .sort {
+        span{
+            margin-left:1.2rem;
+            &:hover{
+                color: rgb(50, 5, 110);
+            }
+            svg{
+                color: gray;
+                margin-left: 0.4rem;
+            }
+        }
+        button{
+            border: 0;
+            background-color: rgba(0, 128, 0, 0.555);
+            color: white;
+            padding:5px 9px;
+            border-radius: 5px;
+            font-size: 14px;
+            &:hover{
+                background-color:rgba(0, 128, 0, 0.747);
+                transform: scaleX(1.1);
+            }
+        }
+    }
+}

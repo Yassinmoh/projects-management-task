@@ -1,0 +1,73 @@
+.project-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.project-wrapper .project-item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.2rem 2rem;
+  margin: 10px 10px;
+}
+
+.project-wrapper .project-item .project-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-wrapper .project-item .project-header h5 {
+  font-size: 18px;
+}
+
+.project-wrapper .project-item .project-body p {
+  padding: 1.5rem 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.project-wrapper .project-item .project-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-wrapper .project-item .project-footer span:first-child {
+  color: rgba(0, 0, 128, 0.699);
+  font-size: 13px;
+}
+
+.project-wrapper .project-item .project-footer span:nth-child(2) {
+  color: #e91e62c0;
+  font-size: 13px;
+}
+
+.project-wrapper .project-item .project-footer span:nth-child(3) {
+  background-color: rgba(0, 128, 0, 0.199);
+  color: green;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 4px;
+}
+
+.project-wrapper .project-item .project-footer svg {
+  font-size: 15px;
+}
+
+.project-wrapper .project-item:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*# sourceMappingURL=Project.css.map */
